@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div class="error_msg" style="color:red;"></div>
+		<div>
+			<label for="source_id">Source</label>
+			<select name="source_id" id="source_id">
+				<option value="1">Listing</option>
+				<option value="2">Details</option>
+			</select>
+		</div>
+		<div>
+			<label for="page_type">Page Type</label>
+			<select name="page_type" id="page_type">
+				<option value="1">Listing</option>
+				<option value="2">Details</option>
+			</select>
+		</div>
+		<div>
+			<label for="field_type">Field Type</label>
+			<select name="field_type" id="field_type">
+				<option value="1">Make</option>
+				<option value="2">Model</option>
+				<option value="3">Trim</option>
+				<option value="4">Price</option>
+			</select>
+		</div>
+		<div>
+			<label for="css_selector">Dom Selector</label>
+			<input type="text" name="css_selector" id="css_selector" style="width:200px;" />
+		</div>
+		<div>
+			<label for="xpath_selector">Xpath Selector</label>
+			<input type="text" name="xpath_selector" id="xpath_selector" style="width:200px;" />
+		</div>
+		<div>
+			<input type="submit" name="submit_btn" value="Save" id="submit_btn" />
+			<input type="submit" name="skip_btn" value="Skip" id="skip_btn" />
+		</div>
+		<script type="text/javascript" src="jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="panel.js"></script>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Dom Saver",
+  "description": "This is custom extension for saving dom elements.",
+  "version": "1.0.2",
+  "devtools_page": "devtools.html",
+  "content_scripts": [{
+  		"matches": ["http://*/*"],
+  		"js": ["panel/jquery-1.10.2.js", "js/content_script.js"]
+  		}
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "icon-info.png"
+  }
+}
